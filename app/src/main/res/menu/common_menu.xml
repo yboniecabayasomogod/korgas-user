@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Refresh"
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="A-Z"
+        android:id="@+id/AtoZ"/>
+
+    <item android:title="Z-A"
+        android:id="@+id/ZtoA"/>
+
+    <item android:title="Cheapest Gasoline"
+        android:id="@+id/cheapestGasoline"/>
+
+    <item android:title="Cheapest Diesel"
+        android:id="@+id/cheapestDiesel"/>
+
+    <item android:title="Cheapest Kerosene"
+        android:id="@+id/cheapestKerosene"/>
+
+    <item android:title="Near Me"
+        android:id="@+id/nearMe"/>
+
+
+</menu>
